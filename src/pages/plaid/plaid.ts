@@ -11,9 +11,9 @@ export class PlaidPage {
 
   private linkHandler;
 
-  public static PLAID_PUBLISHABLE_KEY = "7dc382b3780665771fc7317f8651c8";
+  public static PLAID_PUBLISHABLE_KEY = "****************";   // Replace this with your own values
   public static PLAID_ENVIRONMENT: string = "sandbox";
-  public static APP_NAME: string = "kaphamobile";
+  public static APP_NAME: string = "********"; // Replace this with your own values
 
   constructor(public navCtrl: NavController) {
 
